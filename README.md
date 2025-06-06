@@ -1,39 +1,32 @@
 RCB Bank – Console-Based Banking System in Python
-This project is a simple console-based banking application developed using Python. It simulates basic banking operations and allows users to perform the following tasks:
+Description
+• A simple console-based banking application built with Python
+• Simulates basic banking functions to help beginners practice Python
 
-Open a new account
-
-Withdraw money
-
-Deposit money
-
-Check account balance
-
-View a list of all customers
+Core Functionalities
+• Open a new bank account with name, PIN, and initial deposit
+• Withdraw money after verifying name and PIN
+• Deposit money into an existing account
+• Check account balance with PIN verification
+• View a list of all customers and their balances
 
 Features
-Secure access using a 4-digit PIN
-
-User-friendly account creation with an opening deposit
-
-PIN validation required for all transactions
-
-Balance updates after each deposit or withdrawal
-
-Clear and informative console messages for every action
+• Secure 4-digit PIN-based authentication for each account
+• Data is stored using Python dictionaries
+• Input validation for PIN and transaction amounts
+• Console-based user interaction with informative messages
+• Main menu loop continues until the user exits
 
 Technologies Used
-Python
+• Python 3
+• Key concepts used:
+ • Functions
+ • Dictionaries
+ • Conditional statements
+ • Loops
+ • Input/output operations
 
-Functions
-
-Dictionaries
-
-Loops
-
-Conditional statements
-
-Input/output operations
-
-Use Case
-This project is ideal for beginners who are learning Python and want to practice working with user input, data storage using dictionaries, and building interactive console applications.
+Suitable For
+• Python beginners
+• Students learning data structures and control flow
+• Anyone interested in building simple CLI-based applications
